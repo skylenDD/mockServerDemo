@@ -5,5 +5,6 @@
 
 export const environment = {
   production: false,
-  envName: 'local'
+  envName: 'local',
+  businessApiEndPoint: 'http://localhost:4600/business/',
 };
