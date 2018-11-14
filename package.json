@@ -8,7 +8,7 @@
     "start-st": "ng serve -o --env=staging",
     "start-prod": "ng serve -o --env=prod",
     "build": "ng build --prod",
-    "mock": "nodemon --watch src/mockServer src/mockServer/index.js",
+    "mock": "nodemon --watch src/mockServer",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

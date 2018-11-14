@@ -5,7 +5,7 @@ const middlewares = jsonServer.defaults();
 server.use(middlewares);
 server.use(jsonServer.bodyParser);
 
-server.use('/business/projects', (req, res) => {
+server.use('/system/user', (req, res) => {
   res.jsonp({
     code: '0',
     message: '',
@@ -13,7 +13,7 @@ server.use('/business/projects', (req, res) => {
       jwt: {
         access_token: true
       },
-      userName: '测试账号121'
+      userName: '测试账号121212121211'
     }
   });
 });
